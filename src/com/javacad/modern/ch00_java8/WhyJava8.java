@@ -1,4 +1,4 @@
-package com.javacad.modern;
+package com.javacad.modern.ch00_java8;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,16 +1,15 @@
-package com.javacad.modern;
+package com.javacad.modern.ch00_java8;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by cadqe13@gmail.com on 2022-04-23
  * Blog : https://velog.io/@donsco
  * GitHub : https://github.com/wlwlsus
  */
-public class CalculatorServiceTest {
-
+public class OopAnotherExampleTest {
 	@Test
 	public void testCalculateAddition() throws Exception {
 		final Calculation calculation = Integer::sum;

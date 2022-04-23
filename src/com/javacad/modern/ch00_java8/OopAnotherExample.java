@@ -1,4 +1,4 @@
-package com.javacad.modern;
+package com.javacad.modern.ch00_java8;
 
 /**
  * Created by cadqe13@gmail.com on 2022-04-23
