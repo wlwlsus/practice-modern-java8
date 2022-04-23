@@ -1,5 +1,6 @@
 package com.javacad.modern;
 
+import java.util.function.Consumer;
 import java.util.function.Function;
 
 /**
@@ -33,5 +34,11 @@ public class FunctionalInterfaceExamples {
 		System.out.println(identity.apply(999));
 		System.out.println(identity2.apply(999));
 
+
+		final Consumer<String> print = System.out::println;
+		final Consumer<String> greetings = s -> System.out.println(s + " World");
+
+		print.accept("jaja");
+		greetings.accept("Hello");
 	}
 }
